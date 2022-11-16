@@ -167,5 +167,8 @@ form {
       width: 90%;
       margin-top: 1rem;
     }
+    .InputDate{
+      width: 10vw;
+    }
   }
   
