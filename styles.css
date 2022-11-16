@@ -135,3 +135,36 @@ form {
   padding: 15px;
   
 }
+@media(max-width: 412px) {
+    .cuadroPrincipal {
+      width: 60vw;
+      
+    }
+    form {
+   
+      flex-direction: column;
+      
+    }
+    .inputForm {
+      width: 90%;
+    }
+    .btnCrear {
+      width: 90%;
+      margin-top: 1rem;
+    }
+  }
+  @media(max-width: 769px) {
+    form {
+   
+      flex-direction: column;
+      
+    }
+    .inputForm {
+      width: 90%;
+    }
+    .btnCrear {
+      width: 90%;
+      margin-top: 1rem;
+    }
+  }
+  
