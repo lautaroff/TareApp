@@ -19,8 +19,8 @@
   </head>
   <body>
     <main>
-      <div class="cuadroPrincipal">
-        <div class="titulo"><img src="./imagenes/icono-agenda-titulo.png" class="logo"></div>
+      <div class="mainCard">
+        <div class="title"><img src="./imagenes/icono-agenda-titulo.png" class="logo"/></div>
         <div>
           <form action="">
             <input
@@ -31,16 +31,18 @@
               autocomplete="off"
               data-form-input
             />
-            <button type="submit" class="btnCrear" data-form-btn>
+            <input type="datetime-local" data-form-date placeholder="YYYY/MM/DD"/>
+            <button type="submit" class="btnCreate" data-form-btn>
               Agregar <i class="fas fa-plus-circle"></i>
             </button>
           </form>
         </div>
-        <ul class="listaCuadro" data-list>
-         
+        <ul class="cardsList" data-list>
         </ul>
       </div>
     </main>
-    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
