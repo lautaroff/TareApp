@@ -136,8 +136,9 @@ form {
   
 }
 @media(max-width: 412px) {
-    .cuadroPrincipal {
-      width: 70vw;
+    .mainCard {
+      width: 60vw;
+      height: 80%;
       
     }
     form {
@@ -148,7 +149,7 @@ form {
     .inputForm {
       width: 90%;
     }
-    .btnCrear {
+    .btnCreate {
       width: 90%;
       margin-top: 1rem;
     }
@@ -162,7 +163,7 @@ form {
     .inputForm {
       width: 90%;
     }
-    .btnCrear {
+    .btnCreate {
       width: 90%;
       margin-top: 1rem;
     }
